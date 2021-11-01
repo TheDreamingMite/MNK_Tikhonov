@@ -12,7 +12,7 @@ plt.xlabel('coordinate axis X')
 plt.ylabel('axis Y')
 #x = np.array([0, 2, 3, 4, 5])
 #y = np.array([2, 34, 67, 79, 89])
-fp = open('C:/file/MNK.txt','r')  # открыть файл из любого каталога
+fp = open('MNK.txt','r')  # открыть файл из любого каталога
 a=fp.readline()
 k=-1
 x = np.array([0]*100)
